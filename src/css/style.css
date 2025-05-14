@@ -38,3 +38,65 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline #2979FF;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    height: 100%;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sub-titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#campoBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#banner {
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.botao {
+    padding: 20px 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #2979FF;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.botao:hover {
+    background: #1B2D40;
+}
+
+#botoes .botao {
+    width: 50%;
+}
