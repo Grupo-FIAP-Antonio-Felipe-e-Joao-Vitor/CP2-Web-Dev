@@ -101,3 +101,58 @@ main {
     width: 50%;
 }
 
+#cardsCarros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 570px;
+    width: 460px;
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 2px 3px 4px #2979FF;
+    border-radius: 16px;
+}
+
+.card #botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.carro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.carro img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+}
+
+.descricao span {
+    font-weight: 700;
+    color: #2979FF;
+}
+
+.paragrafo {
+    font-size: 1.2rem;
+    color: #000;
+}
