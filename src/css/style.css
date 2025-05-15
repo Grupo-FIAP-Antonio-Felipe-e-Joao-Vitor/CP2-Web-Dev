@@ -157,3 +157,54 @@ main {
     color: #000;
 }
 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #1B2D40;
+    padding: 30px;
+    margin-top: 30px;
+    color: #fff;
+    gap: 10px;
+}
+
+footer .paragrafo {
+    color: #fff;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#meiosContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#redes #iconeRedes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#direitos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
