@@ -162,10 +162,11 @@ footer {
     display: flex;
     flex-direction: column;
     background: #1B2D40;
+    align-items: center;
     padding: 30px;
     margin-top: 30px;
     color: #fff;
-    gap: 10px;
+    gap: 50px;
 }
 
 footer .paragrafo {
@@ -173,8 +174,9 @@ footer .paragrafo {
 }
 
 #rodape {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #contato {
@@ -188,6 +190,29 @@ footer .paragrafo {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#linksHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#links a:hover {
+    text-decoration: underline #2979FF;
 }
 
 #redes {
@@ -204,6 +229,7 @@ footer .paragrafo {
 }
 
 #direitos {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
