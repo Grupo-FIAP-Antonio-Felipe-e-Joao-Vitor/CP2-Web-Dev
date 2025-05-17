@@ -371,6 +371,14 @@ footer .paragrafo {
         width: 80%;
     }
 
+    .quiz .botao {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
     #rodape{
         flex-direction: column;
         gap: 20px;
@@ -378,5 +386,9 @@ footer .paragrafo {
 
     .texto-sobre{
         padding: 0;
+    }
+
+    .texto-sobre .paragrafo {
+        width: 100%;
     }
 }
